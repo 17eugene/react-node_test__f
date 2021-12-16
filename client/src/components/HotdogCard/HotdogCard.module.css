@@ -1,0 +1,62 @@
+.card {
+  width: 100%;
+  height: 100%;
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 55%;
+  margin-bottom: 12px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.cardTitle {
+  color: rgb(93, 157, 157);
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.cardName {
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+  overflow: auto;
+}
+
+.descr {
+  min-height: 75px;
+  max-height: 75px;
+  max-width: 100%;
+  overflow: auto;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+
+.editBtn {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 200ms linear;
+  background-color: rgb(228, 215, 215);
+  border-radius: 3px;
+}
+
+.editBtn:hover,
+.editBtn:focus {
+  background-color: #c1b5b5;
+}
